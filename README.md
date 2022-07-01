@@ -12,7 +12,7 @@
   Since there are not that many stocks in the data set the run times are pretty fast and are able to run pretty consistantly. 
   
   The run time for the 2017 stocks seems to average around 3.94 seconds, 
- ![Run Time]() 
+ ![Run Time](https://github.com/lrngdtascinc/Stocks-VBA-Challenge/blob/27c3cfb40f1cf57f5bbe87d4d8c144aace5e20b0/VBA_Challenge_2017.png.png) 
   
   While the run time for the 2018 stocks seem to average out around 5.02 seconds
   ![Run Time 2]()
