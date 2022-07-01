@@ -9,10 +9,14 @@
   
 ### Code Run Times
 
-  Since there are not that many stocks in the data set the run times are pretty fast and are able to run pretty consistantly. 
+    Since there are not that many stocks in the data set the run times are pretty fast and are able to run pretty consistantly. 
   
   The run time for the 2017 stocks seems to average around 5.52 seconds, 
  ![Run Time](https://github.com/lrngdtascinc/Stocks-VBA-Challenge/blob/27c3cfb40f1cf57f5bbe87d4d8c144aace5e20b0/VBA_Challenge_2017.png.png) 
   
   While the run time for the 2018 stocks seem to average out around 5.54 seconds.
   ![Run Time 2](https://github.com/lrngdtascinc/Stocks-VBA-Challenge/blob/813137fe652f859d030cd81afbe003404cf24254/VBA_Challenge_2018.png.png)
+
+## Summary
+
+  Overall the we can see that the year 2017 was a good year if you were entered in the market before hand, but we determined that entering during 2017 might have been a mistake due to the drops going into 2018. As for the code, it was a little challenging having to figure out a couple of errors, notably a subscribt out of range error, which I fixed by finding and correcting a typo. The other error I ran into was a overflow error, which I solved by changing the variables startingPrice, and endingPrice to Double instead of single.  
